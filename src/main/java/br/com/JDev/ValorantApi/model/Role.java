@@ -1,7 +1,9 @@
-package br.com.JDev.ValorantApi.model.subModel;
+package br.com.JDev.ValorantApi.model;
+
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+
 @JsonIgnoreProperties(ignoreUnknown = true)
-public record Abilities(String displayName) {
+public record Role(String displayName) {
 }

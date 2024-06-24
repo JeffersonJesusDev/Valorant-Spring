@@ -1,7 +1,5 @@
 package br.com.JDev.ValorantApi.model;
 
-import br.com.JDev.ValorantApi.model.subModel.Abilities;
-import br.com.JDev.ValorantApi.model.subModel.Role;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.util.List;
